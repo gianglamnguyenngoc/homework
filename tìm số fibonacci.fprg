@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Windows 10 TIMT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-10 09:50:43 PM"/>
+        <attribute name="created" value="V2luZG93cyAxMCBUSU1UO0RFU0tUT1AtS0JTTENRMTsyMDE5LTAzLTEwOzA5OjQ2OjI2IFBNOzM1OTM="/>
+        <attribute name="edited" value="V2luZG93cyAxMCBUSU1UO0RFU0tUT1AtS0JTTENRMTsyMDE5LTAzLTEwOzA5OjUwOjQzIFBNOzE7MzY5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fi" type="Real" array="False" size=""/>
+            <declare name="n" type="Real" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p s&#7889; n:&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="fi" expression="(1/(sqrt(5))*(((1+sqrt(5))/2)^n-((1-sqrt(5))/2)^n))"/>
+            <output expression="&quot;k&#7871;t qu&#7843; l&#224; : &quot;&amp;fi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
